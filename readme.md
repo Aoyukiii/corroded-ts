@@ -53,7 +53,7 @@ result.mapOrElse(
 There is also an asynchronous `ResultAsync`:
 
 ```typescript
-import { ResultAsync } from 'corroded-ts'
+import { ResultAsync, Result } from 'corroded-ts'
 
 async function asyncGet(url: string): Promise<string> {
   // do something
