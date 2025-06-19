@@ -1,0 +1,27 @@
+{
+  "tabWidth": 2,
+  "printWidth": 100,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSameLine": true,
+  "htmlWhitespaceSensitivity": "css",
+  "htmlSingleAttributePerLine": false,
+  "cssWhitespaceSensitivity": "strict",
+  "overrides": [
+    {
+      "files": ["*.css", "*.scss", "*.less"],
+      "options": {
+        "bracketSpacing": true,
+        "parser": "css"
+      }
+    },
+    {
+      "files": ["*.html", "*.vue", "*.hbs"],
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}
