@@ -44,10 +44,10 @@ type Pattern<T> = BPattern<T> | PPattern<T>
 
 /**
  * A matcher that matches a value against a pattern.
- * @param MType The type to match.
- * @param MReturn Return type of the matcher, which will accumulate by calling `with` function.
- * @param MMatched Matched type, which will be used when `MType` is checkable.
- * @param AllMatched Whether all patterns are matched.
+ * @param MT The type to match.
+ * @param MR Return type of the matcher, which will accumulate by calling `with` function.
+ * @param MP Matched type, which will be used when `MType` is checkable.
+ * @param MA Whether all patterns are matched.
  */
 class MatcherRaw<MT, MR = never, MP extends Pattern<MT> = never, MA extends boolean = false> {
   private to_match_: MT
