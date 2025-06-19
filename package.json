@@ -13,12 +13,11 @@
   "scripts": {
     "dev": "nodemon --watch src -e ts --exec tsx src/index.ts",
     "build": "tsc",
-    "prepublishOnly": "npm run build",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "coverage": "jest --coverage",
     "example": "nodemon --watch src --watch example -e ts --exec tsx example/index.ts",
-    "publish": "npm run build && npm publish"
+    "publish": "npm run build && npm publish --registry=https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
