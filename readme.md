@@ -1,7 +1,5 @@
 # corroded-ts
 
----
-
 [![npm](https://img.shields.io/npm/v/corroded-ts?style=flat-square)](https://www.npmjs.com/package/rust.ts)
 
 
