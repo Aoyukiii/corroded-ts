@@ -1,5 +1,5 @@
 export * from './lib/result'
-export * from './lib/promise'
+import './lib/promise'
 export * from './lib/option'
 export * from './lib/match'
 
